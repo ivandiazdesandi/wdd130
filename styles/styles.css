@@ -1,0 +1,47 @@
+/* Syntaxis for comments in CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color: darkblue;
+}
+
+nav {
+    background-color: var(--color);
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+h1 {
+    color: var(--color);
+}
+
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid black;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+p {
+    padding: 10px;
+}
+
+/*Class Selectors*/
+
+.box{
+    margin: 1rem;
+    border: 1px;
+    padding: 1rem;
+    background-color: var(--color);
+}
