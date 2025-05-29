@@ -4,23 +4,25 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Learn more about our thrilling white water rafting company and the adventures we offer.">
-  <meta name="author" content="Your Name">
+  <meta name="author" content="Ivan Diaz de Sandi Alvarez">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap">
-  <link href="styles/rafting.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/rafting.css">
   <title>About Us - White Water Rafting</title>
 </head>
-
 <body>
   <header>
     <img src="images/wwr-logo.png.jpg" alt="Rafting Company Logo">
+    <h1>White Water Rafting Co.</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="trips.html">Trips</a>
-      <a href="contact.html">Contact Us</a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
     </nav>
   </header>
 
@@ -32,26 +34,47 @@
         <img src="images/happy-client.jpg" alt="Happy Client">
         <p>We are passionate about adventure and nature. Our mission is to provide unforgettable rafting experiences for thrill-seekers of all kinds.</p>
       </article>
-    </div>
+    </div> 
 
-    <section>
+    <section class="history">
       <h2>History</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo quae eveniet, suscipit amet minus!</p>
+      <div class="history-grid">
+        <p>Founded in 1998, our company has guided thousands through thrilling rapids with safety and fun as our top priorities. From humble beginnings with just two rafts, we’ve grown to be a leader in white water adventures.</p>
+        <img src="images/adventure1.jpg" alt="History Icon">
+        <p>Our guides are certified, experienced, and passionate about the outdoors. Whether you’re new to rafting or a seasoned paddler, we have the perfect trip for you.</p>
+      </div>
     </section>
 
-    <section>
+    <section class="adventures">
       <h2>Adventure Awaits You!</h2>
-      <img src="images/adventure1.jpg" alt="Rafting 1">
-      <img src="images/adventure2.jpg" alt="Rafting 2">
-      <img src="images/adventure3.jpg" alt="Rafting 3">
-      <img src="images/adventure4.jpg" alt="Rafting 4">
-      <img src="images/adventure5.jpg" alt="Rafting 5">
+      <div class="adventure-gallery">
+        <figure>
+          <img src="images/adventure1.jpg" alt="Los Dientes del Diablo">
+          <figcaption>Los Dientes del Diablo</figcaption>
+        </figure>
+        <figure>
+          <img src="images/adventure2.jpg" alt="Big Mallard">
+          <figcaption>Big Mallard</figcaption>
+        </figure>
+        <figure>
+          <img src="images/adventure3.jpg" alt="Half Day Adventure">
+          <figcaption>Half Day Adventure</figcaption>
+        </figure>
+        <figure>
+          <img src="images/adventure4.jpg" alt="Rapid Rush">
+          <figcaption>Rapid Rush</figcaption>
+        </figure>
+        <figure>
+          <img src="images/adventure5.jpg" alt="Canyon Splash">
+          <figcaption>Canyon Splash</figcaption>
+        </figure>
+      </div>
     </section>
   </main>
 
   <footer>
     <p>&copy; 2025 White Water Rafting Co. | Ivan Diaz de Sandi Alvarez</p>
-    <nav class="socialmedia">
+    <div class="socialmedia">
       <a href="https://facebook.com">
         <img src="images/facebook.png" alt="Facebook">
       </a>
@@ -61,7 +84,7 @@
       <a href="https://instagram.com">
         <img src="images/instagram.png" alt="Instagram">
       </a>
-    </nav>
+    </div>
   </footer>
 </body>
 </html>
